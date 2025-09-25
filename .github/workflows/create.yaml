@@ -20,8 +20,8 @@ jobs:
 #           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 #           aws-region: us-east-1 # replace with your desired AWS region
 
-#       - name: run plan
-#         run: terraform plan
+      - name: run plan
+        run: terraform plan
 
 #       - name: run apply
 #         run: terraform apply -auto-approve
